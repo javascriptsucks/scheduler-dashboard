@@ -5,7 +5,7 @@ export default class Panel extends Component {
 	// 	super(props);
 	// }
 	render() {
-		const { label, value, onClick, id, focused } = this.props;
+		const { label, value, onClick, id } = this.props;
 
 		return (
 			<section
